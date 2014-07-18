@@ -19,7 +19,7 @@ set cpo&vim
 
 
 function! meth_head#init() "{{{
-  execute printf("highlight MethHeadLine guibg=%s", s:get_lightened_bg(5))
+  execute printf("highlight MethHeadLine guibg=%s", s:get_lightened_bg(15))
 
   execute printf('sign define %s linehl=%s', g:meth_head_sign_name, g:meth_head_line_highlight)
 
