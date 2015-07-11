@@ -29,6 +29,11 @@ function! s:HighlightFunctionLines() range "{{{
         \     'regex'  : [],
         \     'folds'  : {'maxlevel': 2}
         \   },
+        \   'xml': {
+        \     'groups' : [],
+        \     'regex'  : [],
+        \     'folds'  : {'maxlevel': 2}
+        \   },
         \   'dosbatch': {
         \     'groups' : ['dosbatchLabel'],
         \     'regex'  : [],
